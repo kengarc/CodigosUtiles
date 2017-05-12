@@ -6,9 +6,10 @@ Created on 27 abr. 2017
 
 import re
 
+
 def compruebaErrores(email):
     #Array de elementos no permitidos en un email y que ira recorriendo y comparando
-    elementosNoPermitidos = [" ", "!", "%", "&", "(", ")", "=", "*", "+"]
+    elementosNoPermitidos = [" ", "!", "%", "&", "(", ")", "=", "*", "+", "#"]
     
     #Recorre el listado de elementos no permitidos, en caso de que alguno se encuentre en el email, devolverá un mensaje
     #indicándolo
